@@ -6,4 +6,5 @@ metadata:
     jenkins.io/job-full-name: job/Solr_Install
 spec:
   type: service
+  lifecycle: production
   owner: user:guest
