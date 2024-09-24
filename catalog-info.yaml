@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: jenkins_config
+  namespace: default
   annotations:
     jenkins.io/job-full-name: job/Solr_Install
 spec:
